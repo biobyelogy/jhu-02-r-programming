@@ -1,7 +1,8 @@
 R Programming 第二周 Assignment
----
+===
 
----
+[@生物你好生物再见](http://www.weibo.com/biobyelogy)
+
 
 ### Part 1 `pollutant`
 1. 申明两个变量 `total_sum` 和 `total_length`，分别存储 `pollutant` 数据的总个数和总和，用来最后计算平均值。
@@ -13,7 +14,7 @@ R Programming 第二周 Assignment
 5. 用 `length` 和 `sum` 得到当前文件的 `pollutant` 数量以及数据之和，更新到第一步申明的两个变量中。`sum` 函数只接受 `vector` 数据类型，所以上一步中要把 `data.frame` 转换成 `vector`。`length` 函数不能去除 `NA`，所以上一步中要去除 `NA`，都是为了这一步考虑。
 7. 所有文件处理完之后，`total_sum` 与 `total_length` 相除就是平均值。
 
----
+===
 
 ### Part 2 `complete`
 1. 得到 `id` 长度，记为 `row_count`。
@@ -23,7 +24,7 @@ R Programming 第二周 Assignment
 6. 按顺序把 `id` 和完整 case 数量（`nobs`）存入第二步创建的 `data.frame`。
 7. 循环结束之后，整个 `data.frame` 应该正好填满，返回即可。
 
----
+===
 
 ### Part 3 `corr`
 1. 创建一个空的 `numeric` 向量。

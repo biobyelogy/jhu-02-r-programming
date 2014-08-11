@@ -1,9 +1,8 @@
 R Programming 第四周 Assignment
----
+===
 
 [@生物你好生物再见](http://www.weibo.com/biobyelogy)
 
----
 
 ### 函数 best
 1. 数据读取：读入 `csv` 数据。
@@ -17,7 +16,7 @@ R Programming 第四周 Assignment
 7. 数据处理：对清理之后的数据按照 `死亡率数据` 和 `医院名字` 两列降序排序。
 8. 结果返回：返回排序后第一家医院。
 
----
+===
 
 ### 函数 rankhospital
 - 第 1 步至第 7 步和函数 `best` 完全一样。接下来：
@@ -27,7 +26,7 @@ R Programming 第四周 Assignment
  - 否则，`return_rank` 就等于 `num`，不过 `num` 是一个 `character`，注意数据类型的转换。
 - 结果返回：返回第 7 步中排序之后数据列表的第 `return_rank` 行的医院名字。
 
----
+===
 
 ### 函数 rankall
 - 这题最简单粗暴的办法是把每一个州放到函数 `rankhospital` 里面去运行一遍，同时生成一个 `data.frame`。不过这样非常低效，一定要避免，写这种代码以后要被炒鱿鱼的。

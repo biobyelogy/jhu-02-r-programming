@@ -1,4 +1,16 @@
-jhu-02-r-programming
-====================
+R Programming 总结
+---
 
-R Programming 笔记
+### 第一周
+- [Quiz](./W01%20Quiz.md)
+
+### 第二周
+- [Quiz](./W02%20Quiz.md)
+- [Assignment](./W02%20Assignment.md)
+
+### 第三周
+- [Quiz](./W03%20Quiz.md)
+
+### 第四周
+- [Quiz](./W04%20Quiz.md)
+- [Assignment](./W04%20Assignment.md)
