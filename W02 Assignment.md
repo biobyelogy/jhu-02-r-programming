@@ -13,7 +13,7 @@ R Programming 第二周 Assignment
  - 注：`data[pollutant]` 返回的依然是 `data.frame`，而 `data[, pollutant]` 返回的是一个 `vector`。
 5. 用 `length` 和 `sum` 得到当前文件的 `pollutant` 数量以及数据之和，更新到第一步申明的两个变量中。`sum` 函数只接受 `vector` 数据类型，所以上一步中要把 `data.frame` 转换成 `vector`。`length` 函数不能去除 `NA`，所以上一步中要去除 `NA`，都是为了这一步考虑。
  - `total_size = total_size + 当前文件的 pollutant 数量`；
- - `total_sum = total_sum + 当前文件 `pollutant` 数据之和`。
+ - `total_sum = total_sum + 当前文件 pollutant 数据之和`。
 7. 所有文件处理完之后，`total_sum` 与 `total_length` 相除就是平均值。
 
 ===
