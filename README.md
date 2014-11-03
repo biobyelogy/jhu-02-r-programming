@@ -16,6 +16,7 @@ R Programming 总结
 
 ### 第三周
 - [Quiz](./W03%20Quiz.md)
+- [Assignment](./W03%20Assignment.md)
 
 ### 第四周
 - [Quiz](./W04%20Quiz.md)
